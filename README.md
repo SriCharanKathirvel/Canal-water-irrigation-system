@@ -2,6 +2,7 @@
 Here we have developed an android application to improve the canal water irrigation system  
 The whole mobile application is build on android studio environment in kotlin as a back-end language and XML as front-end language . The application has 5 parts
 1. Login page
+
 • Where the farmers used to create an account initially with their land details and they were grouped based on their location and land number with which they will be arranged in a table with their timing
 • If the farmer already has an account then no need to log in every time once he/she login then that information is stored in the smartphone. It will automatically fetch the data on opening the application
 2. Status page

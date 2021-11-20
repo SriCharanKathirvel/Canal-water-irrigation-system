@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="15dp">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MANO"
+        android:layout_gravity="center"
+        android:id="@+id/prof_name"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MANO"
+        android:gravity="center"
+        android:id="@+id/prof_email"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area: "
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANO"
+            android:layout_gravity="center"
+            android:id="@+id/prof_area"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Land No: "
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANO"
+            android:id="@+id/prof_land"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Acres: "
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="170"
+            android:layout_gravity="center"
+            android:id="@+id/prof_acres"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timing: "
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00Pm-4:00Am"
+            android:layout_gravity="center"
+            android:id="@+id/prof_timing"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unique Id: "
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANO"
+            android:gravity="center"
+            android:id="@+id/prof_unique"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>
